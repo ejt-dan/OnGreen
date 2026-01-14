@@ -3,7 +3,6 @@ import { Hero } from '../components/Hero';
 import { CONFIG } from '../constants';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { dataService } from '../services/dataService';
-import { v4 as uuidv4 } from 'uuid'; // Normally use uuid package, simulating simple id here
 
 export const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
